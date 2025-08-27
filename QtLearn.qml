@@ -1,5 +1,6 @@
 import QtQuick
 import "Animations"
+import "States"
 
 Window {
     width: 640
@@ -7,7 +8,7 @@ Window {
     visible: true
     title: qsTr("Hello World")
 
-    GroupedAnimations {
+    State {
 
     }
 }
