@@ -152,6 +152,13 @@ Item {
             onTriggered: trafficLight.state = 'go'
         }
 
+        Timer {
+            id: readyTimer2
+            interval: 1500
+            repeat: false
+            onTriggered: trafficLight.state = 'stop'
+        }
+
         Rectangle {
             id: button
             width: 200
@@ -174,7 +181,8 @@ Item {
                         trafficLight.state = 'ready'
                         readyTimer.start()
                     } else {
-                        trafficLight.state = 'stop'
+                        trafficLight.state = 'ready'
+                        readyTimer2.start()
                     }
                 }
             }
