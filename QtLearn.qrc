@@ -1,0 +1,11 @@
+<RCC>
+    <qresource>
+        <file>Animations/Animations.qml</file>
+        <file>Animations/Box.qml</file>
+        <file>Animations/Easing.qml</file>
+        <file>Animations/GroupedAnimations.qml</file>
+        <file>Animations/KeysBinds.qml</file>
+        <file>QtLearn.qml</file>
+        <file>QtLearn.qmlproject</file>
+    </qresource>
+</RCC>
